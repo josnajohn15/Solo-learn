@@ -1,0 +1,49 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#888FBF"
+    android:gravity="center"
+    android:padding="@android:dimen/app_icon_size"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student ID"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Enter the SoloLearn StudentID"
+        android:layout_height="wrap_content"
+        android:id="@+id/studid"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:hint="Enter your full name"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="College"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cname"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20px"
+        android:id="@+id/enroll"
+        android:background="#E6628F"
+        android:text="ENROLL"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20px"
+        android:id="@+id/back"
+        android:background="#E6628F"
+        android:text="Back TO MENU"/>
+</LinearLayout>

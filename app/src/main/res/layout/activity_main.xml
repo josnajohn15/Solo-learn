@@ -1,0 +1,44 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#888FBF"
+    android:padding="@android:dimen/app_icon_size"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20px"
+        android:background="#E6628F"
+        android:id="@+id/c"
+        android:text="Introduction to C Programming"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20px"
+        android:id="@+id/p"
+        android:background="#D32C65"
+        android:text="PYTHON PROGRAMMING"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20px"
+        android:background="#E6628F"
+        android:id="@+id/w"
+        android:text="Web development"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20px"
+        android:id="@+id/f"
+        android:background="#D32C65"
+        android:text="FRONT END FOR BEGINNERS"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20px"
+        android:background="#E6628F"
+        android:id="@+id/g"
+        android:text="GENERATIVE AI"/>
+
+</LinearLayout>
